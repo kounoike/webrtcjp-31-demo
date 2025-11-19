@@ -1,4 +1,4 @@
-import type { NextConfig } from "next"
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -8,14 +8,14 @@ const nextConfig: NextConfig = {
   experimental: {
     typedRoutes: true,
   },
-  webpack: (config, { isServer }) => {
+  webpack: (config) => {
     // typescript-goを使用するための設定
     config.resolve.alias = {
       ...config.resolve.alias,
       typescript: "typescript-go",
-    }
-    return config
+    };
+    return config;
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
