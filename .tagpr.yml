@@ -1,0 +1,22 @@
+# tagpr configuration
+tagpr:
+  # リリース時のバージョンタグのフォーマット
+  tagFormat: v$VERSION
+  # バージョン管理対象のファイル
+  versionFile:
+    - package.json
+  # CHANGELOGファイルの生成
+  changelog: true
+  # リリースブランチ
+  releaseBranch: main
+  # リリースPRのラベル
+  label: "release"
+  # マイナーバージョンのキーワード
+  minorLabels:
+    - "feature"
+    - "enhancement"
+  # パッチバージョンのキーワード  
+  patchLabels:
+    - "fix"
+    - "bugfix"
+    - "patch"

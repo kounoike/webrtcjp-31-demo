@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: "export",
+  basePath: process.env.GITHUB_ACTIONS ? "/webrtcjp-31-demo" : "",
   typescript: {
     tsconfigPath: "./tsconfig.json",
   },
