@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.2](https://github.com/kounoike/webrtcjp-31-demo/compare/v0.0.1...v0.0.2) - 2025-11-19
+- use PAT by @kounoike in https://github.com/kounoike/webrtcjp-31-demo/pull/12
+
 ## [v0.0.1](https://github.com/kounoike/webrtcjp-31-demo/commits/v0.0.1) - 2025-11-19
 - typescript-go by @kounoike in https://github.com/kounoike/webrtcjp-31-demo/pull/1
 - VSCode settings by @kounoike in https://github.com/kounoike/webrtcjp-31-demo/pull/2
