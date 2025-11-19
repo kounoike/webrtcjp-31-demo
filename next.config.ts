@@ -5,16 +5,19 @@ const nextConfig: NextConfig = {
   typescript: {
     tsconfigPath: "./tsconfig.json",
   },
-  experimental: {
-    typedRoutes: true,
-  },
+  typedRoutes: true,
   webpack: (config) => {
     // typescript-goを使用するための設定
     config.resolve.alias = {
       ...config.resolve.alias,
-      typescript: "typescript-go",
+      typescript: "@typescript/native-preview",
     };
     return config;
+  },
+  turbopack: {
+    resolveAlias: {
+      typescript: "@typescript/native-preview",
+    },
   },
 };
 
