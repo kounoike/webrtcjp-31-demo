@@ -22,6 +22,9 @@
       "@/*": ["./src/*"]
     }
   },
+  "ts-node": {
+    "compiler": "typescript-go"
+  },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
