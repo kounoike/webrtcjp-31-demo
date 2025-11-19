@@ -19,7 +19,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5",
-    "typescript-go": "0.0.1-security"
+    "@typescript/native-preview": "7.0.0-dev.20251119.1",
+    "typescript": "^5"
   }
 }

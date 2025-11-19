@@ -30,12 +30,12 @@ importers:
       '@types/react-dom':
         specifier: ^19
         version: 19.2.3(@types/react@19.2.6)
+      '@typescript/native-preview':
+        specifier: 7.0.0-dev.20251119.1
+        version: 7.0.0-dev.20251119.1
       typescript:
         specifier: ^5
         version: 5.9.3
-      typescript-go:
-        specifier: 0.0.1-security
-        version: 0.0.1-security
 
 packages:
 
@@ -297,6 +297,45 @@ packages:
   '@types/react@19.2.6':
     resolution: {integrity: sha512-p/jUvulfgU7oKtj6Xpk8cA2Y1xKTtICGpJYeJXz2YVO2UcvjQgeRMLDGfDeqeRW2Ta+0QNFwcc8X3GH8SxZz6w==}
 
+  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20251119.1':
+    resolution: {integrity: sha512-0SN4RzwpRAEKTmP1DARl/VueqXEw2NW5P+tr6Quxzly9nDhBm0vM2Zkf5xD/j9BmfCegUVUUiwazpmat5N7/Xg==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@typescript/native-preview-darwin-x64@7.0.0-dev.20251119.1':
+    resolution: {integrity: sha512-NPb36JMIho0c8DfW8L4qw8R9x/RdylOA27RXr24WtGFSL/1gM6o1gVL0nX+imVeK9PC9dM7M7DM2YNmWN0V8kw==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@typescript/native-preview-linux-arm64@7.0.0-dev.20251119.1':
+    resolution: {integrity: sha512-3e9Z2B9N/3TI1sLE+i9U8SpxNwngnhkmvYO683wdCaaIqeQXi1qBSb4UbOx5AKvtoYtUAR2sEn+1z6rtq6VJ3A==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@typescript/native-preview-linux-arm@7.0.0-dev.20251119.1':
+    resolution: {integrity: sha512-EZY9Qs82/s4o8baxm+xiw395Hl2RZaETwF3fdLCwrd27noFtqqnQE4lN///YZMNrTcN7PiB70wV6GoozwI44jQ==}
+    cpu: [arm]
+    os: [linux]
+
+  '@typescript/native-preview-linux-x64@7.0.0-dev.20251119.1':
+    resolution: {integrity: sha512-DnYuFQGYWJIorPqCnIu4A4OsJflkzNxjIOhe/2tYRRiCbA/GckxFJkFQ99KwcSDjA0UFWNQP4IbwnwNYawgfig==}
+    cpu: [x64]
+    os: [linux]
+
+  '@typescript/native-preview-win32-arm64@7.0.0-dev.20251119.1':
+    resolution: {integrity: sha512-qgTIo9wkQee2Ai7H8dlVTPnQy4Q82JeCoGPqy+DtigE6IWfMheDbCW8xOrs3H8Ay6FYfo46/xlrhZtShmf7H1g==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@typescript/native-preview-win32-x64@7.0.0-dev.20251119.1':
+    resolution: {integrity: sha512-lAQDi46tW0mGm3vEEo7VSMX/KKW+/VmRX8O/u58rdKYhLnZNZE+3+bgppN7S75RpTpttuv/hYC2scLFsOxk+hQ==}
+    cpu: [x64]
+    os: [win32]
+
+  '@typescript/native-preview@7.0.0-dev.20251119.1':
+    resolution: {integrity: sha512-oR7dJSdg1Ww2e/e7PCZd2ympNOY5ewTmcurQMuxsOz++Bacp12GZcPHnhPKtGcyHofIdcvbKTmtWe46iKIbTlA==}
+    hasBin: true
+
   caniuse-lite@1.0.30001756:
     resolution: {integrity: sha512-4HnCNKbMLkLdhJz3TToeVWHSnfJvPaq6vu/eRP0Ahub/07n484XHhBF5AJoSGHdVrS8tKFauUQz8Bp9P7LVx7A==}
 
@@ -383,9 +422,6 @@ packages:
 
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
-
-  typescript-go@0.0.1-security:
-    resolution: {integrity: sha512-V7mVOa7HdefBzXd8EC6Nb4MdLawEnN7LXL/A4B7Qg17WYtR6DDZam2P2e0itWkvhMNQNsyDG86PAwS7n/XbStw==}
 
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
@@ -576,6 +612,37 @@ snapshots:
     dependencies:
       csstype: 3.2.3
 
+  '@typescript/native-preview-darwin-arm64@7.0.0-dev.20251119.1':
+    optional: true
+
+  '@typescript/native-preview-darwin-x64@7.0.0-dev.20251119.1':
+    optional: true
+
+  '@typescript/native-preview-linux-arm64@7.0.0-dev.20251119.1':
+    optional: true
+
+  '@typescript/native-preview-linux-arm@7.0.0-dev.20251119.1':
+    optional: true
+
+  '@typescript/native-preview-linux-x64@7.0.0-dev.20251119.1':
+    optional: true
+
+  '@typescript/native-preview-win32-arm64@7.0.0-dev.20251119.1':
+    optional: true
+
+  '@typescript/native-preview-win32-x64@7.0.0-dev.20251119.1':
+    optional: true
+
+  '@typescript/native-preview@7.0.0-dev.20251119.1':
+    optionalDependencies:
+      '@typescript/native-preview-darwin-arm64': 7.0.0-dev.20251119.1
+      '@typescript/native-preview-darwin-x64': 7.0.0-dev.20251119.1
+      '@typescript/native-preview-linux-arm': 7.0.0-dev.20251119.1
+      '@typescript/native-preview-linux-arm64': 7.0.0-dev.20251119.1
+      '@typescript/native-preview-linux-x64': 7.0.0-dev.20251119.1
+      '@typescript/native-preview-win32-arm64': 7.0.0-dev.20251119.1
+      '@typescript/native-preview-win32-x64': 7.0.0-dev.20251119.1
+
   caniuse-lite@1.0.30001756: {}
 
   client-only@0.0.1: {}
@@ -670,8 +737,6 @@ snapshots:
       react: 19.2.0
 
   tslib@2.8.1: {}
-
-  typescript-go@0.0.1-security: {}
 
   typescript@5.9.3: {}
 
